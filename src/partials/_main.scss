@@ -1,0 +1,87 @@
+main{
+    .containerItems{
+        display: flex;
+        justify-content: space-between;
+        // align-content: center;
+        padding: 25px 5%;
+        border: 1px solid  #D3D3D3;
+        // text-align: center;
+        // align-items: center;
+        font-size: 12px;
+        img{
+            height: 60px;
+            width: 20%;
+        }
+        p{
+            margin-top: 0;
+            width: 45%;
+            // font-size: 9px;
+            font-size: 10px;
+            text-align: initial;
+        }
+        h5{
+            margin-top: 0;
+            width: 20%;
+            text-align: end;
+        }
+    }
+    .edit{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        border: 1px solid  #D3D3D3;
+        padding-right: 5%;
+        input{
+            width: 16%;
+            background-color: red;
+            color: white;
+            height: 25px;
+        }
+    }
+    .subtotal, .Total{
+        height: 90px;
+        padding: 0 5%;
+        background-color: #D3D3D3;
+        display: flex;
+        justify-content: space-between;
+        h5{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            span{
+                font-size: 20px;
+            }
+        }
+    }
+    .Total{
+        background-color: black;
+        color: white;
+        height: 60px;
+    }
+}
+@media screen and(min-width:1000px) {
+    main{
+        .containerItems{
+            img{
+                // width: 20%;
+                height: 100px;
+            }
+            p{
+                width: 35%;
+                font-size: 18px;
+            }
+            h5{
+                font-size: 18px;
+            }
+        }
+        .edit{
+            input{
+                height: 40px;
+            }
+        }
+        .subtotal, .Total{
+            font-size: 20px;
+        }
+    }
+}

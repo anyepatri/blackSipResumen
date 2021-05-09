@@ -1,0 +1,135 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+  background-color: #D3D3D3;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 50%;
+  }
+  header {
+    font-size: 20px;
+  }
+}
+
+main .containerItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 5%;
+  border: 1px solid  #D3D3D3;
+  font-size: 12px;
+}
+
+main .containerItems img {
+  height: 60px;
+  width: 20%;
+}
+
+main .containerItems p {
+  margin-top: 0;
+  width: 45%;
+  font-size: 10px;
+  text-align: initial;
+}
+
+main .containerItems h5 {
+  margin-top: 0;
+  width: 20%;
+  text-align: end;
+}
+
+main .edit {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border: 1px solid  #D3D3D3;
+  padding-right: 5%;
+}
+
+main .edit input {
+  width: 16%;
+  background-color: red;
+  color: white;
+  height: 25px;
+}
+
+main .subtotal, main .Total {
+  height: 90px;
+  padding: 0 5%;
+  background-color: #D3D3D3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .subtotal h5, main .Total h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .subtotal h5 span, main .Total h5 span {
+  font-size: 20px;
+}
+
+main .Total {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+
+@media screen and (min-width: 1000px) {
+  main .containerItems img {
+    height: 100px;
+  }
+  main .containerItems p {
+    width: 35%;
+    font-size: 18px;
+  }
+  main .containerItems h5 {
+    font-size: 18px;
+  }
+  main .edit input {
+    height: 40px;
+  }
+  main .subtotal, main .Total {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
